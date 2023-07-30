@@ -9,6 +9,7 @@ h1 {
 }
 
 button {
+  display: inline;
   margin-top: 10px;
   padding: 0.25rem;
   background-color: rgb(44, 80, 44);
@@ -20,13 +21,16 @@ button {
 
 textarea {
   width: 75vw;
+  font-size: larger;
   max-width: 75vw;
-  max-height: 50vh;
+  max-height: 40vh;
   background-color: rgb(41, 40, 45);
   border-radius: 0.5rem;
   color: white;
-  padding: 0.5rem;
+  padding: 1rem;
+
 }
+
 
 .select-box {
   margin-top: 5px;
@@ -38,9 +42,26 @@ textarea {
 }
 
 .container {
-  margin: 5%;
+  margin: 1.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
 
+}
+
+.verdict-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.outputBox {
+  width: 50rem;
+  max-width: 50rem;
+  overflow: auto;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+  background-color: rgb(41, 40, 45);
+  color: white;
 }
